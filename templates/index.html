@@ -81,8 +81,8 @@
                 {% csrf_token %}
 				<input type="text"
 					placeholder=" Search Courses"
-					name="search">
-				<button>
+					name="city">
+				<button type="submit">
 					<i class="fa fa-search"
 						style="font-size: 18px;">
 					</i>
@@ -93,9 +93,9 @@
 	
 	<!-- logo with tag -->
 	<div class="content">
-		<h1 style="color:green; padding-top:40px;">
-			GeeksforGeeks
-		</h1>
+		<h1 style="color:green; padding-top:60px;">
+            {{city}}
+        </h1>
 		
 		<b>
 			A Computer Science
